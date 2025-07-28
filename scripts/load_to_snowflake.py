@@ -7,8 +7,8 @@ df = pd.read_csv('../data/retail_sales_dataset.csv')
 # Connect to Snowflake
 conn = snowflake.connector.connect(
     user='TEBOHO',
-    password='Hotboi$summer2002',
-    account='cj27283.af-south-1.aws',  
+    password='',
+    account='',  
     warehouse='COMPUTE_WH',
     database='RETAIL_DB',
     schema='RAW'
